@@ -1,30 +1,40 @@
 {
   "format": 1,
   "restore": {
-    "/Users/nesumtoj/Downloads/TaskManagement/backend/TaskManagement.csproj": {}
+    "C:\\Users\\dp-laptop3\\Downloads\\TaskManagement_Backend_With_Service_Layer\\TaskManagement.csproj": {}
   },
   "projects": {
-    "/Users/nesumtoj/Downloads/TaskManagement/backend/TaskManagement.csproj": {
+    "C:\\Users\\dp-laptop3\\Downloads\\TaskManagement_Backend_With_Service_Layer\\TaskManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/nesumtoj/Downloads/TaskManagement/backend/TaskManagement.csproj",
+        "projectUniqueName": "C:\\Users\\dp-laptop3\\Downloads\\TaskManagement_Backend_With_Service_Layer\\TaskManagement.csproj",
         "projectName": "TaskManagement",
-        "projectPath": "/Users/nesumtoj/Downloads/TaskManagement/backend/TaskManagement.csproj",
-        "packagesPath": "/Users/nesumtoj/.nuget/packages/",
-        "outputPath": "/Users/nesumtoj/Downloads/TaskManagement/backend/obj/",
+        "projectPath": "C:\\Users\\dp-laptop3\\Downloads\\TaskManagement_Backend_With_Service_Layer\\TaskManagement.csproj",
+        "packagesPath": "C:\\Users\\dp-laptop3\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dp-laptop3\\Downloads\\TaskManagement_Backend_With_Service_Layer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/nesumtoj/.config/NuGet/NuGet.Config"
+          "C:\\Users\\dp-laptop3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net9.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.fast-report.com/api/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ebo-ai/_packaging/ebo-integrations/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ebo-ai/c52e72e7-88e3-49c7-b1d0-d07fc3909ef9/_packaging/Ebo.Integration.OpenAi/nuget/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -32,11 +42,17 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -57,7 +73,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -69,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.106/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
