@@ -32,4 +32,4 @@ COPY --from=build-env /app/out .
 EXPOSE 8081
 
 # Set the entrypoint
-ENTRYPOINT ["dotnet", "TaskManagment.dll"]
+ENTRYPOINT ["dotnet", "TaskManagement.dll"]

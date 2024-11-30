@@ -1,11 +1,12 @@
 ﻿<Properties StartupConfiguration="{9E05E468-267A-493A-86E2-A17783172873}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Properties/launchSettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
       <File FileName="appsettings.json" Line="12" Column="2" />
       <File FileName="Properties/launchSettings.json" Line="9" Column="47" />
       <File FileName="Services/TaskService.cs" />
       <File FileName="Controllers/TasksController.cs" />
-      <File FileName="TaskManagement.csproj" Line="13" Column="11" />
+      <File FileName="TaskManagement.csproj" />
+      <File FileName="Program.cs" Line="34" Column="11" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,10 +20,9 @@
               <Node name="Data" expanded="True" />
               <Node name="Migrations" expanded="True" />
               <Node name="Models" expanded="True" />
-              <Node name="Properties" expanded="True">
-                <Node name="launchSettings.json" selected="True" />
-              </Node>
+              <Node name="Properties" expanded="True" />
               <Node name="Services" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
