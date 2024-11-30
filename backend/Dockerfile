@@ -25,6 +25,9 @@ WORKDIR /app
 # Install curl
 RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*
 
+# Install net-tools
+RUN apt-get update && apt-get install -y net-tools
+
 # Copy the published output from the build stage
 COPY --from=build-env /app/out .
 
