@@ -29,7 +29,7 @@ RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*
 COPY --from=build-env /app/out .
 
 # Expose the API port
-EXPOSE 8080
+EXPOSE 8081
 
 # Set the entrypoint
-ENTRYPOINT ["dotnet", "TaskManagement.dll"]
+ENTRYPOINT ["dotnet", "TaskManagment.dll"]
